@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÑĤÄŞ - Luxury Perfumes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        'gold': '#D4AF37',
+                        'dark-bg': '#0F0F0F',
+                        'dark-card': '#1A1A1A',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white font-serif">
+    <!-- Header -->
+    <header class="py-8 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gold">MÑĤÄŞ</h1>
+            <p class="text-lg md:text-xl mt-2 text-gray-300">Luxury Perfumes for the Discerning Soul</p>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section class="py-12 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-gold">Our Signature Scents</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-dark-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Midnight Aura Perfume Bottle" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gold">Midnight Aura</h3>
+                        <p class="text-gray-300 mb-4">A mysterious blend of deep amber, smoky vetiver, and midnight jasmine, evoking the allure of a starlit night. Perfect for those who embrace the enigmatic.</p>
+                        <p class="text-xl font-semibold mb-4 text-gold">1,500 PKR</p>
+                        <button class="w-full bg-gold text-dark-bg py-2 px-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-dark-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Desert Rose Perfume Bottle" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gold">Desert Rose</h3>
+                        <p class="text-gray-300 mb-4">Inspired by the resilient beauty of the desert, this fragrance combines rose petals, warm sandalwood, and a hint of exotic spices for an unforgettable floral journey.</p>
+                        <p class="text-xl font-semibold mb-4 text-gold">2,250 PKR</p>
+                        <button class="w-full bg-gold text-dark-bg py-2 px-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-dark-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Velvet Oud Perfume Bottle" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gold">Velvet Oud</h3>
+                        <p class="text-gray-300 mb-4">A luxurious fusion of rare oud wood, velvety vanilla, and subtle leather notes, creating a scent as opulent as it is timeless. Indulge in pure elegance.</p>
+                        <p class="text-xl font-semibold mb-4 text-gold">3,000 PKR</p>
+                        <button class="w-full bg-gold text-dark-bg py-2 px-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-300">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 md:px-8 bg-dark-card">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-gray-400">&copy; 2023 MÑĤÄŞ. All rights reserved. Experience luxury redefined.</p>
+        </div>
+    </footer>
+</body>
+</html>
